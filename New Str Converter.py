@@ -1,10 +1,12 @@
-def new_str_converter(string):
-    for letter in string:
-        if letter.isalpha() or letter == " ":
-            print(letter, end="")
-    return letter
+def remover (string):
+    new_string = []
+    for character in string:
+        if character.isalpha() or character == " ":
+            new_string.append(character)
+    final_string = ''.join(new_string)
+    return final_string.strip()
 
-print(new_str_converter("1. Me ll21515amo Camil@@a Rodrígu///ez"))
-print(new_str_converter("My favorite number is four"))
-print(new_str_converter("My favorite number is 4"))
-print(new_str_converter("4 is my favorite number"))
+print(remover("1. Me ll21515amo Camil@@a Rodrígu///ez"))
+print(remover("My favorite number is four"))
+print(remover("My favorite number is 4"))
+print(remover("4 is my favorite number"))
