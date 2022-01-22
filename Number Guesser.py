@@ -1,18 +1,19 @@
-#Select Random Number
+# Select Random Number
 import random
-n = random.randint(1,100)
 
-#Variable Initialization
+n = random.randint(1, 100)
+
+# Variable Initialization
 attempts = 10
 done = True
 
-#Greetings and Instructions
+# Greetings and Instructions
 print("Welcome to the Number Guesser \n"
       "You´ll need to guess a hidden number between 1 and 100 \n"
-      "You have 15 attempts, and every time you fail, the attempts will decrease and a new hint will be given"
+      "You have 10 attempts, and every time you fail, the attempts will decrease and a new hint will be given"
       "\n-----------------------------------------------------------------------------------------------------")
 
-#Code
+# Code
 while done:
     if attempts > 0:
         guess = int(input("Enter Your Guess: "))
