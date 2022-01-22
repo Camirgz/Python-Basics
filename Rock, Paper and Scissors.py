@@ -1,6 +1,6 @@
 import random
 
-#Starting
+# Starting
 options = ["Rock", "Paper", "Scissors"]
 user_points = 0
 bot_points = 0
