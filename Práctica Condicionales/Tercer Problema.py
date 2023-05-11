@@ -9,11 +9,11 @@ ypos = False
 if x > 0: xpos = True
 if y > 0: ypos = True
 
-if x and y :
+if xpos and ypos :
 	print("I cuadrante")
-elif x and not y:
+elif xpos and not ypos:
 	print("II cuadrante")
-elif not x and not y:
+elif not xpos and not ypos:
 	print("III cuadrante")
-elif not y and not x :
+elif ypos and not xpos :
 	print("IV cuadrante")
